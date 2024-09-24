@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ioctl-usermode", "project-usermode\project-usermode.vcxproj", "{8AEFA01E-7FC5-477B-9BD3-1D409562D804}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ioctl-kernel", "project-ioctl\drv.vcxproj", "{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		l1nky|9lives = l1nky|9lives
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AEFA01E-7FC5-477B-9BD3-1D409562D804}.l1nky|9lives.ActiveCfg = Release|x64
+		{8AEFA01E-7FC5-477B-9BD3-1D409562D804}.l1nky|9lives.Build.0 = Release|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.l1nky|9lives.ActiveCfg = main|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.l1nky|9lives.Build.0 = main|x64
+		{2BC9C890-EE95-4219-AC58-872DDB9D7F5E}.l1nky|9lives.Deploy.0 = main|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4718C350-D770-4399-81DE-B4E3D779042B}
+	EndGlobalSection
+EndGlobal

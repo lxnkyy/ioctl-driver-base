@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="core\kernel\pml4\pml4.cpp" />
+    <ClCompile Include="core\requests\memory\memory.cpp" />
+    <ClCompile Include="core\kernel\physical\physical.cpp" />
+    <ClCompile Include="core\requests\base\base.cpp" />
+    <ClCompile Include="core\requests\dtb\dtb.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\includes.hpp" />
+    <ClInclude Include="dependencies\additional\structures.hpp" />
+    <ClInclude Include="dependencies\additional\variables\globals.hpp" />
+    <ClInclude Include="core\kernel\pml4\pml4.hpp" />
+    <ClInclude Include="core\requests\memory\memory.hpp" />
+    <ClInclude Include="core\kernel\physical\physical.hpp" />
+    <ClInclude Include="core\requests\base\base.hpp" />
+    <ClInclude Include="core\requests\dtb\dtb.hpp" />
+  </ItemGroup>
+</Project>
